@@ -1,0 +1,13 @@
+$dokka.format:html
+$dokka.linkExtension:html
+
+io.github.johnfg10
+io.github.johnfg10.api
+io.github.johnfg10.configs
+io.github.johnfg10.configs.models
+io.github.johnfg10.db
+io.github.johnfg10.db.models
+io.github.johnfg10.discord
+io.github.johnfg10.discord.command
+io.github.johnfg10.discord.commands
+io.github.johnfg10.scripting

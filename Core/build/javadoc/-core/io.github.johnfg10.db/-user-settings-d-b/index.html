@@ -1,0 +1,70 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>UserSettingsDB - Core</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">Core</a>&nbsp;/&nbsp;<a href="../index.html">io.github.johnfg10.db</a>&nbsp;/&nbsp;<a href="./index.html">UserSettingsDB</a><br/>
+<br/>
+<h1>UserSettingsDB</h1>
+<code><span class="keyword">class </span><span class="identifier">UserSettingsDB</span></code>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="identifier">UserSettingsDB</span><span class="symbol">(</span><span class="identifier" id="io.github.johnfg10.db.UserSettingsDB$<init>(kotlin.String, kotlin.String)/dbUsername">dbUsername</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="io.github.johnfg10.db.UserSettingsDB$<init>(kotlin.String, kotlin.String)/dbPassword">dbPassword</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="nitrite.html">nitrite</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">nitrite</span><span class="symbol">: </span><span class="identifier">Nitrite</span></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="nitrite-collection.html">nitriteCollection</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">nitriteCollection</span><span class="symbol">: </span><span class="identifier">ObjectRepository</span><span class="symbol">&lt;</span><a href="../../io.github.johnfg10.db.models/-guild-settings/index.html"><span class="identifier">GuildSettings</span></a><span class="symbol">&gt;</span></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="find.html">find</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">find</span><span class="symbol">(</span><span class="identifier" id="io.github.johnfg10.db.UserSettingsDB$find(org.dizitart.no2.objects.ObjectFilter)/objectFilter">objectFilter</span><span class="symbol">:</span>&nbsp;<span class="identifier">ObjectFilter</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Cursor</span><span class="symbol">&lt;</span><a href="../../io.github.johnfg10.db.models/-guild-settings/index.html"><span class="identifier">GuildSettings</span></a><span class="symbol">&gt;</span></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="insert.html">insert</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">insert</span><span class="symbol">(</span><span class="keyword">vararg</span> <span class="identifier" id="io.github.johnfg10.db.UserSettingsDB$insert(kotlin.Array((io.github.johnfg10.db.models.GuildSettings)))/guildSettings">guildSettings</span><span class="symbol">:</span>&nbsp;<a href="../../io.github.johnfg10.db.models/-guild-settings/index.html"><span class="identifier">GuildSettings</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="remove.html">remove</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">remove</span><span class="symbol">(</span><span class="identifier" id="io.github.johnfg10.db.UserSettingsDB$remove(org.dizitart.no2.objects.ObjectFilter)/objectFilter">objectFilter</span><span class="symbol">:</span>&nbsp;<span class="identifier">ObjectFilter</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

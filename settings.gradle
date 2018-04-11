@@ -1,0 +1,6 @@
+rootProject.name = 'Helpanto1'
+include 'Core'
+include 'Api'
+include 'testbed'
+include 'scripts'
+
