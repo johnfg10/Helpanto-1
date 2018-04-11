@@ -41,6 +41,6 @@ compileTestKotlin {
 }
 
 dokka {
-    outputFormat = 'html'
+    outputFormat = 'gfm'
     outputDirectory = "$buildDir/javadoc"
 }
