@@ -1,5 +1,7 @@
 //list of swear words thats filtered
-val bannedWords = listOf("fuck", "shit", "bastard", "cunt", "twat", "wanker")
+val bannedWords = listOf(
+    "fuck", "shit", "bastard", "cunt", "twat", "wanker"
+)
 
 fun isAllowed(message: String) : Boolean {
     for(bannedWord in bannedWords){
