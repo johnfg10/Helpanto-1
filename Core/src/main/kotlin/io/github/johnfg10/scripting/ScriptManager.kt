@@ -53,12 +53,15 @@ class ScriptManager(val scriptPath: String, private val isWatcherEnabled: Boolea
                     val patha = it.context() as Path
                     when(it.kind().name()){
                         "ENTRY_CREATE" -> {
+                            if(patha.toFile().extension == "kts")
                             addScript(path.resolve(patha.fileName))
                         }
                         "ENTRY_MODIFY" -> {
+                            if(patha.toFile().extension == "kts")
                             updateScript(patha)
                         }
                         "ENTRY_DELETE" -> {
+                            if(patha.toFile().extension == "kts")
                             removeScript(path.resolve(patha.fileName))
                         }
                     }
