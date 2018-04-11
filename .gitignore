@@ -16,3 +16,7 @@ gradle-app.setting
 .idea/**
 
 *.conf
+
+**/out/**
+**/build/**
+
