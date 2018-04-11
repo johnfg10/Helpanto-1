@@ -6,11 +6,13 @@ var bannedWords = listOf(
     "fuck", "shit", "bastard", "cunt", "twat", "wanker"
 )
 
+var totalSpace: Long = 0
+
 fun isAllowed(message: String) : Boolean {
-    val file = File("");
-    println(file.absoluteFile)
-    if(File("${file.absoluteFile}/scripts/swearword.txt").exists()){
-        val texts = File("${file.absoluteFile}/scripts/swearword.txt").readLines()
+    val mainFile = File("${File("").absoluteFile}/scripts/swearword.txt")
+
+    if(mainFile.exists() && totalSpace != mainFile.totalSpace){
+        val texts = mainFile.readLines()
         bannedWords = texts
     }
 
